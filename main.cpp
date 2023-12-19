@@ -12,10 +12,10 @@ void main()
 
 string enterFileName()
 {
-	string fileName = "Планеты1";//Имя файла
+	string fileName = "Планеты";//Имя файла
 
-	cout << "Введите имя файла для загрузки - ";
-	cin >> fileName;
+	//cout << "Введите имя файла для загрузки - ";
+	//cin >> fileName;
 
 	fileName += ".txt";//добавляем формат файла
 	return fileName;
